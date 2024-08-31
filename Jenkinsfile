@@ -3,7 +3,7 @@ pipeline {
     tools {
         jdk 'java17'
         maven 'maven3'
-    }
+}
 	environment {
 	    APP_NAME = "register-app-pipeline"
             RELEASE = "1.0.0"
